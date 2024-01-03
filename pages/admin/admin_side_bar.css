@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav1 {
+    background-color: #cc2f40;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: #fff;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.nav1 i {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 18px; /* Thêm kích thước chữ cho biểu tượng */
+}
+
+.main {
+    margin-left: 200px;
+    padding: 0 20px;
+}
+.main h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+.main button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.main button:hover {
+    background-color: #3e8e41;
+}
+.content {
+    margin-left: 200px;
+    padding: 0 20px;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.content button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.content button:hover {
+    background-color: #3e8e41;
+}
+.revenue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.revenue h2 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.revenue p {
+    font-size: 18px;
+    margin-top: 0;
+}
+.graph {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.graph img {
+    max-width: 100%;
+    height: auto;
+}
+div table tr td{
+    height:20px;
+    width:70px;
+}
+/* canvas {
+    
+} */
+.centered {
+    display: inline-block;
+  }
+.add-button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.order-container {
+    width: 500px;
+    height: 650px;
+    border: 1px solid black;
+    padding: 10px;
+    float: left;
+    margin: 20px;
+    color: #1bc570;
+}
+
+
+.order-image img {
+    max-width: 70%; 
+    
+    height: auto;
+}
+
+
+.product-details, .product-price, .total-price, .address, .order-details {
+    margin-top: 10px;
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+
+button {
+    background-color: rgb(240, 75, 75);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: #ff2e2e;
+}
+.order-details {
+    background-color: #551b1b;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.order-details .label {
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+
+
+.product-details {
+    margin-bottom: 10px;
+}
+
+.product-price {
+    margin-bottom: 5px;
+    color: #007bff; 
+}
+
+
+.total-price {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #dc3545;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+

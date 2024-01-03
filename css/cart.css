@@ -1,0 +1,93 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.product {
+    display: flex;
+    width: 700px;
+    margin-bottom: 20px;
+    box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Thêm transition để tạo hiệu ứng mượt mà */
+}
+
+.product:hover {
+    transform: scale(1.05); /* Lồi to 110% khi hover vào */
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.product_info {
+    flex: 1;
+    padding: 20px;
+    
+}
+.product_name {
+    font-size: 30px;
+    font-weight: bold;
+}
+.product_price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d70018;
+}
+.product_button{
+    width: 300px;
+}
+.purchase_button{
+    display: block;
+    background-color: rgb(11, 223, 11);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+.delete_button{
+    display: block;
+    background-color: rgb(251, 43, 43);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+.total {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 50%; /* Shift the element to the middle */
+    transform: translateX(-50%); /* Center the element */
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px -3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.total p{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    color: #d70018;
+}
+
+
+
+/* /////////////////////////// */
+
+
+
+
+
+

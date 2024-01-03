@@ -1,0 +1,123 @@
+h1 {
+    color: #fff;
+    background-color: #fa3131;
+    padding: 10px;
+    border-radius: 10px 10px 0 0 ;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color:#ff4545;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 10px 10px 0 0;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #fd7e7e;
+    color: #fff;
+}
+
+/* Độ rộng của từng cột */
+th:nth-child(1),
+td:nth-child(1) {
+    width: 3%; /* Độ rộng cột 1 */
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 8%; /* Độ rộng cột 2 */
+}
+th:nth-child(3),
+td:nth-child(3) {
+    width: 8%; /* Độ rộng cột 2 */
+}
+th:nth-child(4),
+td:nth-child(4) {
+    width: 12%; /* Độ rộng cột 2 */
+}
+th:nth-child(5),
+td:nth-child(5) {
+    width: 10%; /* Độ rộng cột 2 */
+}
+th:nth-child(6),
+td:nth-child(6) {
+    width: 30%; /* Độ rộng cột 2 */
+}
+th:nth-child(7),
+td:nth-child(7) {
+    width: 18%; /* Độ rộng cột 2 */
+}
+th:nth-child(8),
+td:nth-child(8) {
+    width: 7%; /* Độ rộng cột 2 */
+}
+
+
+.flex-form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin: 5px 0 15px 0 ;
+
+}
+
+.form-row label {
+    width: 100px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.form-row input[type="text"],
+.form-row input[type="password"] {
+    flex: 1;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 8px 15px;
+    background-color: #3cec21;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #19bb21;
+    border-radius: 10px;
+}
+
+.close_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
